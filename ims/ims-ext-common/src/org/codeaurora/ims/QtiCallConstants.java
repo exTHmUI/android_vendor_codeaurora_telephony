@@ -27,7 +27,7 @@
  *
  * Changes from Qualcomm Innovation Center are provided under the following license:
  *
- * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+ * Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted (subject to the limitations in the
@@ -396,7 +396,7 @@ public class QtiCallConstants {
 
     // Set for MT pre alerting call (unique ID to match subscription)
     // Type: int
-    public static final String EXTRA_PRE_ALERTING_CALL_PHONE_ID = " pre_alerting_call_phoneId";
+    public static final String EXTRA_PRE_ALERTING_CALL_PHONE_ID = "pre_alerting_call_phoneId";
 
     // Set for MT pre alerting call (only set when the call has ended)
     // Type: boolean
@@ -553,4 +553,7 @@ public class QtiCallConstants {
     // Data Channel call information
     public static final String EXTRA_DATA_CHANNEL_MODEM_CALL_ID = "modemCallId";
     public static final String EXTRA_IS_DATA_CHANNEL_CALL = "isDcCall";
+
+    // Video online service
+    public static final String EXTRA_VIDEO_ONLINE_SERVICE_SUPPORTED = "isVosSupported";
 }
